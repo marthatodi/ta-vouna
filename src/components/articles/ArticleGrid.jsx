@@ -26,9 +26,9 @@ function ArticleGrid({ data }) {
     return (
         <Article className={`article-grid`} title={parsedData.title}>
             <div className={`text-center`}>
-                {parsedData.config.format === 'inline' && (
+                Μουσικές ιστορίες για το κοινωνικό και πολιτικό τραγούδι της δεκαετίας του 1940               {/*  {parsedData.config.format === 'inline' && (
                     <InlineList items={parsedItems} textClass={!isBreakpoint('sm') ? 'text-3' : 'text-4'}/>
-                )}
+                )} */}
             </div>
 
             {parsedData.config.format === 'grid' && (

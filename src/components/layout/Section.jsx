@@ -143,7 +143,7 @@ function SectionHeader({section}) {
     }
 
     return (
-        <div className={`section-header w-100 px-0 px-md-3 text-center ${prefix ? `mt-0` : `mt-1 mt-sm-2 mt-lg-4`}`}>
+        <div className={`section-header w-100 px-0 px-md-3 text-center ${prefix ? `mt-0` : `mt-1 mt-sm-2 mt-lg-4`} d-flex flex-column align-items-center`}>
             {prefix && (
                 <div className={`fw-bold text-muted lead-2 font-family-headings mb-2`}>
                     <FaIcon className={`me-2 opacity-50`} iconName={'fa-solid fa-book'}/>
@@ -153,6 +153,7 @@ function SectionHeader({section}) {
 
             <h3 className={`fw-bold ${isBreakpoint('lg') ? 'lead-4' : ''} mx-4 mb-0`}
                 dangerouslySetInnerHTML={{__html: title}}/>
+            <div class="mt-3" style={{border: '1px solid black', width: '75%'}}></div>
         </div>
     )
 }
