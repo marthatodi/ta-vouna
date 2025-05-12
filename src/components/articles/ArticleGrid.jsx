@@ -40,7 +40,7 @@ function ArticleGrid({ data }) {
                             stepAmount={4}>
                     <InfoGrid items={filteredItems}/>
                 </Expandable>
-            )}
+            )}                
         </Article>
     )
 }

@@ -46,7 +46,7 @@ $loader-background-color: #a2a8d3;
     --theme-main-3: #fbf2d5;
     --theme-main-4: #fdc57b;
 
-    --theme-secondary: #EEEEEE;
+    --theme-secondary: #181818;//#EEEEEE;
     --theme-secondary-2: #D1D1D1;
     --theme-secondary-3: #bbbbbb;
     --theme-secondary-4: #9f9f9f;
@@ -55,9 +55,11 @@ $loader-background-color: #a2a8d3;
     --theme-soft-2: #bbbbbb;
     --theme-soft-3: #cadefc;
 
-    --theme-highlight: #fbf2d5;
+    --theme-highlight: #181818;//--theme-highlight: #fbf2d5;
     --theme-highlight-2: #cadefc;
-    --theme-highlight-3: #dcd6f7;
+    --theme-highlight-2: #32343a;//#cadefc;
+    --theme-highlight-3: #181818; //    --theme-highlight-3: #dcd6f7;
+
 
     --theme-dark: #fbf1c7;
     --theme-dark-opacity: rgba(16, 16, 16, 0.2);

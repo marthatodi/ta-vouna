@@ -20,7 +20,7 @@
         width: var(--scrollbar-width);
         background-color: transparent;
     }
-
+/* 
     &::before {
         content: "";
         position: absolute;
@@ -29,7 +29,7 @@
         width: var(--scrollbar-track-width);
         top: 0;
         right: var(--scrollbar-track-offset);
-    }
+    } */
 
     .scrollbar-thumb {
         position: relative;
@@ -37,7 +37,7 @@
         background-color: transparent;
         border-radius: 0;
 
-        &::before {
+    /*     &::before {
             content: "";
             position: absolute;
             background-color: var(--theme-scrollbar-thumb);
@@ -46,7 +46,7 @@
             width: var(--scrollbar-thumb-width);
             top: 0;
             left: var(--scrollbar-thumb-offset);
-        }
+        } */
     }
 }
 
