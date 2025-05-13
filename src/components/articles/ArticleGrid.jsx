@@ -29,6 +29,8 @@ function ArticleGrid({ data }) {
                 Μουσικές ιστορίες για το κοινωνικό και πολιτικό τραγούδι της δεκαετίας του 1940               {/*  {parsedData.config.format === 'inline' && (
                     <InlineList items={parsedItems} textClass={!isBreakpoint('sm') ? 'text-3' : 'text-4'}/>
                 )} */}
+                            <div style={{marginTop: '1rem', textAlign: 'center'}}>Η επίσημη ιστοσελίδα του ομώνυμου βιβλίου</div>
+
             </div>
 
             {parsedData.config.format === 'grid' && (
